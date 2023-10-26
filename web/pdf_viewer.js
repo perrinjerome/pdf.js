@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import ResizeObserver from 'resize-observer-polyfill';
 
 /** @typedef {import("../src/display/api").PDFDocumentProxy} PDFDocumentProxy */
 /** @typedef {import("../src/display/api").PDFPageProxy} PDFPageProxy */

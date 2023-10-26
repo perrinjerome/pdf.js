@@ -22,6 +22,7 @@ import { AnnotationEditor } from "./editor.js";
 import { InkAnnotationElement } from "../annotation_layer.js";
 import { noContextMenu } from "../display_utils.js";
 import { opacityToHex } from "./tools.js";
+import ResizeObserver from 'resize-observer-polyfill';
 
 /**
  * Basic draw editor in order to generate an Ink annotation.

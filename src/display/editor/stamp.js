@@ -17,6 +17,7 @@ import { AnnotationEditorType, shadow } from "../../shared/util.js";
 import { AnnotationEditor } from "./editor.js";
 import { PixelsPerInch } from "../display_utils.js";
 import { StampAnnotationElement } from "../annotation_layer.js";
+import ResizeObserver from 'resize-observer-polyfill';
 
 /**
  * Basic text editor in order to create a FreeTex annotation.
